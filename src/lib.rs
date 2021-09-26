@@ -53,20 +53,3 @@ impl ProgressBar {
 }
 
 }
-
-use std::{thread, time::Duration};
-
-fn main() {
-    println!("Hello, world!");
-
-    let mut pb = progrust::ProgressBar::new(Some(1000), None);
-    pb.print();
-
-    for _ in 0..1000 {
-        pb.print();
-        pb.inc();
-        thread::sleep(Duration::from_millis(50));
-    }
-    pb.done();
-    
-}

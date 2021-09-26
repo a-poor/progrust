@@ -8,7 +8,6 @@ readme = "README.md"
 repository = "https://github.com/a-poor/progrust"
 homepage = "https://github.com/a-poor/progrust"
 license = "MIT"
-license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

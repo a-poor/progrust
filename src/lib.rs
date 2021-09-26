@@ -1,4 +1,4 @@
-mod progrust {
+pub mod progrust {
 
 pub struct ProgressBar {
     pos:   u32,

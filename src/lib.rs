@@ -6,7 +6,7 @@ pub struct ProgressBar {
     width: u32
 }
 
-pub impl ProgressBar {
+impl ProgressBar {
 
     pub fn new(total: Option<u32>, width: Option<u32>) -> ProgressBar {
         ProgressBar {

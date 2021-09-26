@@ -2,6 +2,7 @@
 name = "progrust"
 version = "0.1.0"
 edition = "2018"
+description = "A minimalist tool for creating progress bars with Rust."
 
 readme = "README.md"
 repository = "https://github.com/a-poor/progrust"
